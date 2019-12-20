@@ -31,11 +31,6 @@ section.body-page {
 	min-height:100vh;
 	width:100%;
 	background-color: #1D4CD8;
-	/* background-image:url(../img/background.jpg); */
-	/* background-attachment:fixed; */
-	/* background-position:center center; */
-	/* background-size:cover; */
-	/* background-repeat:no-repeat */
 }
 
 .cover-bg {
@@ -48,7 +43,6 @@ section.body-page {
 	text-align:center;
 	color:#ddd;
 	font-weight:700;
-	/* text-shadow:2px 4px #000; */
 	text-transform:uppercase;
 	letter-spacing:1px;
 	margin-top:4%;
@@ -61,7 +55,6 @@ section.body-page {
 	font-size:20px;
 	margin-left:30%;
 	margin-right:30%;
-	/* text-shadow:1px 2px #000; */
 	margin-bottom:5%;
 }
 
@@ -113,16 +106,11 @@ section.body-page {
 	text-align:center;
 	color: white;
 	font-weight:700;
-	/* text-shadow:1px 2px #000; */
 }
 
 #info h3,#repos h4,.spantop {
-	margin-bottom:40px;
+	margin-bottom: 40px;
 }
-
-/* #info p { */
-	/* background-color: white; */
-/* } */
 
 .showmore {
 	display:none;
