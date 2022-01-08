@@ -58,6 +58,15 @@ section.body-page {
 	margin-bottom: 5%;
 }
 
+.logo {
+	text-align: center;
+	margin-bottom: -50px;
+}
+
+.logo img {
+	width: 450px;
+}
+
 .search-box {
 	width: 50vw;
 	margin: 0 auto;
@@ -155,6 +164,26 @@ section.body-page {
 	text-decoration: none;
 }
 
+@media only screen and (max-width: 400px){
+	.logo {
+		text-align: center;
+		margin-bottom: -20px;
+	}
+	.logo img {
+		width: 150px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.logo {
+		text-align: center;
+		margin-bottom: -20px;
+	}
+	.logo img {
+		width: 250px;
+	}
+}
+
 @media only screen and (max-width: 1092px){
 	.cover-bg p {
 		font-size: 12px;
@@ -165,6 +194,13 @@ section.body-page {
 	.cover-bg h1 {
 		font-size: 28px;
 		margin-top: 12%;
+	}
+	.logo {
+		text-align: center;
+		margin-bottom: -50px;
+	}
+	.logo img {
+		width: 400px;
 	}
 	.panel {
 		width: 70vw;
